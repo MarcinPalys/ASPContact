@@ -1,0 +1,39 @@
+﻿@model Contact
+
+<form asp-action="Edit" asp-controller="Contact" method="post">
+    <div asp-validation-summary="All"></div>
+    <div>
+        <label asp-for="name">Imię</label>
+        <div>
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="name" />
+        <label asp-for="surname">Nazwisko</label>
+
+        <label asp-for="name">Nazwisko</label>
+        <div>
+            <span asp-validation-for="surname" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="surname" />
+
+        <label asp-for="phone">Telefon</label>
+        <div>
+            <span asp-validation-for="phone" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="phone" />
+
+        <label asp-for="email">Email</label>
+        <div>
+            <span asp-validation-for="email" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="email" />
+
+        <label asp-for="dateOfBirth">Data urodzenia</label>
+        <div>
+            <span asp-validation-for="dateOfBirth" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="date" asp-for="dateOfBirth" />
+
+        <button type="submit">Zapisz</button>
+    </div>
+</form>
