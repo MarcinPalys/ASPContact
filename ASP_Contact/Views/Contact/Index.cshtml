@@ -1,0 +1,60 @@
+﻿@model List<Contact>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h2>Lista kontaktów</h2>
+@if(Model.Count>0)
+{
+    <table>
+        <tr>
+            <th style="padding-left:20px">
+                @Html.DisplayNameFor(model => model[0].name)
+            </th>
+            <th style="padding-left:20px">
+                @Html.DisplayNameFor(model => model[0].surname)
+            </th>
+            <th style="padding-left:20px">
+                @Html.DisplayNameFor(model => model[0].phone)
+            </th>
+            <th style="padding-left:20px">
+                @Html.DisplayNameFor(model => model[0].Priority)
+            </th>
+        </tr>
+        @foreach (var item in @Model)
+        {
+            <tr>
+                <td style="padding-left:20px">
+                    @item.name
+                </td>
+                <td style="padding-left:20px">
+                    @item.surname
+                </td>
+                <td style="padding-left:20px">
+                    @item.phone
+                </td>
+                <td style="padding-left:20px">
+                    @item.Priority.GetDisplayName();
+                </td>
+                <td>
+                    <a class="btn btn-primary"
+                       asp-action="Edit"
+                       asp-controller="Contact"
+                       asp-route-id=@item.id>Edytuj</a>
+                    <a class="btn btn-primary"
+                       asp-action="Details"
+                       asp-controller="Contact"
+                       asp-route-id=@item.id>Szczegóły</a>
+                    <a class="btn btn-primary"
+                       asp-action="Delete"
+                       asp-controller="Contact"
+                       asp-route-id=@item.id
+                       onclick="return confirm('Czy na pewno chcesz usunąć ten kontakt?');">Usuń</a>
+                </td>
+
+            </tr>
+        }
+    </table>
+}

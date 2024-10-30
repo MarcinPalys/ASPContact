@@ -1,0 +1,44 @@
+﻿@model Contact
+
+<form asp-action="Create" asp-controller="Contact" method="post">
+<div asp-validation-summary="All"></div>   
+<div>
+        <label asp-for="name"></label>
+        <div>
+          <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="name"/>       
+
+        <label asp-for="surname"></label>
+        <div>
+          <span asp-validation-for="surname" class="text-danger"></span>
+        </div>
+          <input class="form-control" type="text" asp-for="surname"/>
+
+        <label asp-for="phone"></label>
+        <div>
+            <span asp-validation-for="phone" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="phone" />
+
+        <label asp-for="email"></label>
+        <div>
+            <span asp-validation-for="email" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="text" asp-for="email" />
+
+        <label asp-for="dateOfBirth"></label>
+        <div>
+            <span asp-validation-for="dateOfBirth" class="text-danger"></span>
+        </div>
+        <input class="form-control" type="date" asp-for="dateOfBirth" />
+     
+            <label asp-for="Priority"></label>
+            <div>
+            <span asp-validation-for="Priority" class="text-danger"></span>
+            </div>
+        <select class="form-control" asp-for="Priority" asp-items="@Html.GetEnumSelectList<Priority.Priority_>()"></select>
+        
+       <button type="submit">Zapisz</button>
+</div>
+</form>

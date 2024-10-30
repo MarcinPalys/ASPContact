@@ -1,0 +1,87 @@
+﻿using ASP_Contact.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Text;
+
+namespace ASP_Contact.Controllers
+{
+    public class ContactController : Controller
+    {
+        public static Dictionary<int, Contact> _contacts = new Dictionary<int, Contact>();
+        private readonly IContactService _contactService;
+        public ContactController(IContactService contactService)
+        {
+            _contactService = contactService;
+        }
+        public IActionResult Index()
+        {
+            return View(_contactService.FindAll());
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Contact contact)
+        {
+            if (ModelState.IsValid)
+            {
+               _contactService.Add(contact);
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(contact);
+            }
+        }
+        [HttpGet]
+        public IActionResult Edit(int id) 
+        {
+            if (id == _contactService.FindById(id).id)
+            {
+                return View(_contactService.FindById(id));
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+        [HttpPost]
+        public IActionResult Edit(Contact contact) 
+        {
+            if (ModelState.IsValid) 
+            {
+                _contactService.Update(contact);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View();
+            }
+        }
+        public IActionResult Details(int id) 
+        { 
+            if(id ==  _contactService.FindById(id).id)
+            {
+                return View(_contactService.FindById(id));
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+        public IActionResult Delete(int id)
+        {
+            if(id == _contactService.FindById(id).id)
+            {
+                _contactService.Delete(id);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+    }
+}
