@@ -23,6 +23,6 @@ namespace ASP_Contact.Models
         [Display(Name = "Data Urodzenia")]
         public DateTime dateOfBirth { get; set; }
         [Display(Name = "Prirytety")]
-        public Priority.Priority_ Priority{ get; set; }
+        public Priority Priority{ get; set; }
     }
 }

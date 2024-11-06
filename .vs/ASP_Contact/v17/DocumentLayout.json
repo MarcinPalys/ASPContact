@@ -1,54 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\contactmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\contactmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\models\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\models\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\migrations\\20241106193006_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\migrations\\20241106193006_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\efcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\efcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\contactentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\contactentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\models\\memorycontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\models\\memorycontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\memorycontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\source\\repos\\asp_contact\\asp_contact\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\asp_contact.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\asp_contact.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|c:\\users\\admin\\downloads\\aspcontact\\aspcontact\\asp_contact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADA90AF-59BB-45B5-80D0-E3DEA7159958}|ASP_Contact\\ASP_Contact.csproj|solutionrelative:asp_contact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +86,242 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 17,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Program.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Program.cs",
-              "RelativeToolTip": "ASP_Contact\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:55:56.696Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MemoryContactService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\MemoryContactService.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Models\\MemoryContactService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\MemoryContactService.cs",
-              "RelativeToolTip": "ASP_Contact\\Models\\MemoryContactService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "DocumentIndex": 5,
+              "Title": "20241106193006_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Migrations\\20241106193006_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Migrations\\20241106193006_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Migrations\\20241106193006_InitialCreate.cs",
+              "RelativeToolTip": "ASP_Contact\\Migrations\\20241106193006_InitialCreate.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:39:50.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T19:30:24.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASP_Contact\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T17:29:48.496Z",
+              "WhenOpened": "2024-11-06T19:11:11.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\IContactService.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\IContactService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\IContactService.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\IContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:08:26.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MemoryContactService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\MemoryContactService.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\MemoryContactService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\MemoryContactService.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\MemoryContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:08:21.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Create.cshtml",
+              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T19:07:52.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Details.cshtml",
+              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T19:07:48.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Edit.cshtml",
+              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T19:07:19.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ASP_Contact",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\ASP_Contact.csproj",
+              "RelativeDocumentMoniker": "ASP_Contact\\ASP_Contact.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\ASP_Contact.csproj",
+              "RelativeToolTip": "ASP_Contact\\ASP_Contact.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T21:40:56.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\Priority.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\Priority.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\Priority.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\Priority.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:31:23.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EnumExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\EnumExtensions.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Models\\EnumExtensions.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\EnumExtensions.cs",
-              "RelativeToolTip": "ASP_Contact\\Models\\EnumExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:27:53.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Edit.cshtml",
-              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Edit.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwCQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T15:51:52.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "ASP_Contact\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:12:47.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IContactService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\IContactService.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Models\\IContactService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\IContactService.cs",
-              "RelativeToolTip": "ASP_Contact\\Models\\IContactService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T17:38:55.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Controllers\\ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "ASP_Contact\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Controllers\\ContactController.cs",
               "RelativeToolTip": "ASP_Contact\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCEAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:12:35.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T21:28:31.75Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\Contact.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Models\\Contact.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\Contact.cs",
-              "RelativeToolTip": "ASP_Contact\\Models\\Contact.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBwAAAAAAAAA",
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:12:32.813Z"
+              "WhenOpened": "2024-11-05T21:26:44.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Priority.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\Priority.cs",
-              "RelativeDocumentMoniker": "ASP_Contact\\Models\\Priority.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Models\\Priority.cs",
-              "RelativeToolTip": "ASP_Contact\\Models\\Priority.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T21:13:57.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnumExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\EnumExtensions.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\EnumExtensions.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\EnumExtensions.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\EnumExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:12:00.096Z",
+              "WhenOpened": "2024-11-05T15:26:10.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Program.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Program.cs",
+              "RelativeToolTip": "ASP_Contact\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:14:26.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\ContactMapper.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\ContactMapper.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\ContactMapper.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\ContactMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:00:40.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Details.cshtml",
-              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Details.cshtml",
-              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T15:08:29.561Z",
+              "DocumentIndex": 6,
+              "Title": "EfContactService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\EfContactService.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\EfContactService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\EfContactService.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\EfContactService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvx0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:57:11.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:39:40.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Create.cshtml",
-              "RelativeDocumentMoniker": "ASP_Contact\\Views\\Contact\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASP_Contact\\ASP_Contact\\Views\\Contact\\Create.cshtml",
-              "RelativeToolTip": "ASP_Contact\\Views\\Contact\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T15:08:26.522Z",
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\Contact.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:36:12.561Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\ContactEntity.cs",
+              "RelativeDocumentMoniker": "ASP_Contact\\Models\\ContactEntity.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\ASPContact\\ASPContact\\ASP_Contact\\Models\\ContactEntity.cs",
+              "RelativeToolTip": "ASP_Contact\\Models\\ContactEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:36:05.05Z"
             }
           ]
         }
