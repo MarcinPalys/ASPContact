@@ -1,10 +1,16 @@
 using ASP_Contact.Models;
+using ASP_Contact.Models.EF;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IContactService, MemoryContactService>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlite(connectionString: @"Data Source=C:\Users\ADMIN\source\repos\ASP_Contact\appdb.db");
+});
+builder.Services.AddSingleton<IContactService, EFContactService>();
 
 var app = builder.Build();
 
