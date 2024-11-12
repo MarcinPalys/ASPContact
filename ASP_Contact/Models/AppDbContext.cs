@@ -5,23 +5,84 @@ namespace ASP_Contact.Models
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<ContactEntity> Contacts { get; set; }       
+        public DbSet<ContactEntity> Contacts { get; set; }
+        public DbSet<OrganizationEntity> Organizations { get; set; }
+
         private string DbPath { get; set; }
+
         public AppDbContext()
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            DbPath = System.IO.Path.Join(path, "contacts1.db");
+            DbPath = Path.Combine(path, "contacts1.db");
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder options) =>
-        options.UseSqlite($"Data Source={DbPath}");
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite($"Data source={DbPath}");
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ContactEntity>().HasData(
-                new ContactEntity() { id = 1, name = "Andzej",surname="Kowalskiiii",  email = "adam@wsei.edu.pl", phone = "127813268163", dateOfBirth = new DateTime(2000, 10, 10),Created = DateTime.Now,  Priority = Priority.Low },
-                new ContactEntity() { id = 2, name = "Ewa", surname = "Nowak", email = "ewa@wsei.edu.pl", phone = "293443823478", dateOfBirth = new DateTime(1999, 8, 10), Created = DateTime.Now, Priority = Priority.High }
-            );
+            modelBuilder.Entity<ContactEntity>()
+                .HasOne<OrganizationEntity>(c => c.Organization)
+                .WithMany(o => o.Contacts)
+                .HasForeignKey(c => c.OrganizationId);
+
+            modelBuilder.Entity<OrganizationEntity>()
+                .ToTable("organizations")
+                .HasData(
+                    new OrganizationEntity()
+                    {
+                        Id = 101,
+                        Name = "WSEI",
+                        NIP = "283792834",
+                        REGON = "2837294234"
+                    },
+                    new OrganizationEntity()
+                    {
+                        Id = 102,
+                        Name = "PKP",
+                        NIP = "283792834",
+                        REGON = "2837294234"
+                    }
+                );
+
+            modelBuilder.Entity<OrganizationEntity>()
+                .OwnsOne(organization => organization.Address)
+                .HasData(
+                    new { OrganizationEntityId = 101, City = "Kraków", Street = "św. Filipa 17" },
+                    new { OrganizationEntityId = 102, City = "Warszawa", Street = "Dworcowa 9" }
+                );
+
+            modelBuilder.Entity<ContactEntity>()
+                .HasData(
+                    new ContactEntity()
+                    {
+                        id = 1,
+                        name = "Adam",
+                        surname = "Kowal",
+                        email = "adam@wsei.edu.pl",
+                        phone = "123456789",
+                        dateOfBirth = new(2000, 10, 10),
+                        Created = DateTime.Now,
+                        Priority = Priority.Low,
+                        OrganizationId = 101
+                    },
+                    new ContactEntity()
+                    {
+
+                        id = 2,
+                        name = "Adam",
+                        surname = "Kowal",
+                        email = "adam@wsei.edu.pl",
+                        phone = "123456789",
+                        dateOfBirth = new(2000, 10, 10),
+                        Created = DateTime.Now,
+                        Priority = Priority.Normal,
+                        OrganizationId = 102
+                    }
+                );
         }
     }
 }

@@ -35,6 +35,11 @@ namespace ASP_Contact.Models
             return ContactMapper.FromEntity(_context.Contacts.Find(id));
         }
 
+        public List<OrganizationEntity> GetOrganizations()
+        {
+            return _context.Organizations.ToList();
+        }
+
         public void Update(Contact contact)
         {
             _context.Contacts.Update(ContactMapper.ToEntity(contact));

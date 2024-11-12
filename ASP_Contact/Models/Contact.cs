@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
 namespace ASP_Contact.Models
@@ -24,5 +26,9 @@ namespace ASP_Contact.Models
         public DateTime dateOfBirth { get; set; }
         [Display(Name = "Prirytety")]
         public Priority Priority{ get; set; }
+        public int OrganizationId { get; set; }
+        public OrganizationEntity? Organization { get; set; }
+        [ValidateNever]
+        public List<SelectListItem> Organizations { get; set; }
     }
 }

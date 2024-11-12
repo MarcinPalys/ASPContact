@@ -26,6 +26,11 @@
             return _items[id];
         }
 
+        public List<OrganizationEntity> GetOrganizations()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Contact item)
         {
             _items[item.id] = item;

@@ -1,4 +1,6 @@
-﻿namespace ASP_Contact.Models
+﻿using System.Net;
+
+namespace ASP_Contact.Models
 {
     public interface IContactService
     {
@@ -7,5 +9,6 @@
         void Update(Contact book);
         List<Contact> FindAll();
         Contact? FindById(int id);
+        List<OrganizationEntity> GetOrganizations();
     }
 }

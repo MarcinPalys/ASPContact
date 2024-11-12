@@ -1,5 +1,6 @@
 ﻿using ASP_Contact.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Text;
 
 namespace ASP_Contact.Controllers
@@ -18,8 +19,13 @@ namespace ASP_Contact.Controllers
         }
         [HttpGet]
         public IActionResult Create()
-        {
-            return View();
+        {            
+            Contact model = new Contact();
+            model.Organizations = _contactService
+                .GetOrganizations()
+                .Select(o => new SelectListItem() { Value = o.Id.ToString(), Text = o.Name })
+                .ToList();
+            return View(model);
         }
         [HttpPost]
         public IActionResult Create(Contact contact)

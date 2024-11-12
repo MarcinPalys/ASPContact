@@ -13,7 +13,9 @@ namespace ASP_Contact.Models
                 phone = contact.phone,
                 email = contact.email,
                 surname = contact.surname,
-                Priority = contact.Priority              
+                Priority = contact.Priority,
+                Organization = contact.Organization,
+                OrganizationId = contact.OrganizationId,
             };
         }
         public static Contact FromEntity(ContactEntity entity) 
@@ -26,7 +28,9 @@ namespace ASP_Contact.Models
                 phone = entity.phone,
                 email = entity.email,
                 surname = entity.surname,
-                Priority = entity.Priority
+                Priority = entity.Priority,
+                Organization = entity.Organization,
+                OrganizationId = entity.OrganizationId,
             };
         }
     }

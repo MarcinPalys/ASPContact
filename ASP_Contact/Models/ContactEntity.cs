@@ -29,5 +29,8 @@ namespace ASP_Contact.Models
         [Display(Name = "Prirytety")]
         public Priority Priority { get; set; }
         public DateTime Created { get; set; }
+        public int OrganizationId { get; set; }
+        public OrganizationEntity? Organization { get; set; }
+
     }
 }
