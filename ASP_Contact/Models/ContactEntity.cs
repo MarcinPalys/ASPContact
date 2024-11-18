@@ -30,6 +30,7 @@ namespace ASP_Contact.Models
         public Priority Priority { get; set; }
         public DateTime Created { get; set; }
         public int OrganizationId { get; set; }
+        [Display(Name = "Organization")]
         public OrganizationEntity? Organization { get; set; }
 
     }

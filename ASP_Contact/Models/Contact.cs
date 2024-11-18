@@ -27,6 +27,7 @@ namespace ASP_Contact.Models
         [Display(Name = "Prirytety")]
         public Priority Priority{ get; set; }
         public int OrganizationId { get; set; }
+        [Display(Name = "Organization")]
         public OrganizationEntity? Organization { get; set; }
         [ValidateNever]
         public List<SelectListItem> Organizations { get; set; }

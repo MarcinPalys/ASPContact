@@ -44,14 +44,18 @@ namespace ASP_Contact.Controllers
         [HttpGet]
         public IActionResult Edit(int id) 
         {
-            if (id == _contactService.FindById(id).id)
-            {
-                return View(_contactService.FindById(id));
-            }
-            else
+            var contact = _contactService.FindById(id);
+            if (contact == null)
             {
                 return NotFound();
             }
+
+            contact.Organizations = _contactService
+                .GetOrganizations()
+                .Select(o => new SelectListItem { Value = o.Id.ToString(), Text = o.Name })
+                .ToList();
+
+            return View(contact);
         }
         [HttpPost]
         public IActionResult Edit(Contact contact) 

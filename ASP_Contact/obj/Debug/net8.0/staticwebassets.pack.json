@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASP_Contact.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ASP_Contact.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ASP_Contact.oyj9kkiu51.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASP_Contact.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASP_Contact.Microsoft.AspNetCore.StaticWebAssets.props",

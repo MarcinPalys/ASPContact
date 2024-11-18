@@ -564,3 +564,7 @@ C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\
 C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\ASP_Contact.pdb
 C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\ASP_Contact.genruntimeconfig.cache
 C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\ref\ASP_Contact.dll
+C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\bin\Debug\net8.0\ASP_Contact.staticwebassets.endpoints.json
+C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\staticwebassets\msbuild.ASP_Contact.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ADMIN\Downloads\ASPContact_1\ASPContact_1\ASP_Contact\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

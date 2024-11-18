@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using static ASP_Contact.Models.Priority;
 
 namespace ASP_Contact.Models
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<IdentityUser>
     {
         public DbSet<ContactEntity> Contacts { get; set; }
         public DbSet<OrganizationEntity> Organizations { get; set; }
@@ -24,6 +26,41 @@ namespace ASP_Contact.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            string ADMIN_ID = Guid.NewGuid().ToString();
+            string ROLE_ID = Guid.NewGuid().ToString();
+
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole
+            {
+                Name = "admin",
+                NormalizedName = "ADMIN",
+                Id = ROLE_ID,
+                ConcurrencyStamp = ROLE_ID
+            });
+
+            var admin = new IdentityUser
+            {
+                Id = ADMIN_ID,
+                Email = "adam@wsei.edu.pl",
+                EmailConfirmed = true,
+                UserName = "admin",
+                NormalizedUserName = "ADMIN",
+                NormalizedEmail = "ADAM@WSEI.EDU.PL"
+            };
+
+            PasswordHasher<IdentityUser> ph = new PasswordHasher<IdentityUser>();
+            admin.PasswordHash = ph.HashPassword(admin, "1234abcd!@#$ABCD");
+
+            modelBuilder.Entity<IdentityUser>().HasData(admin);
+
+            modelBuilder.Entity<IdentityUserRole<string>>()
+            .HasData(new IdentityUserRole<string>
+            {
+                RoleId = ROLE_ID,
+                UserId = ADMIN_ID
+            });
+
             modelBuilder.Entity<ContactEntity>()
                 .HasOne<OrganizationEntity>(c => c.Organization)
                 .WithMany(o => o.Contacts)
@@ -71,7 +108,6 @@ namespace ASP_Contact.Models
                     },
                     new ContactEntity()
                     {
-
                         id = 2,
                         name = "Adam",
                         surname = "Kowal",
