@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\ASP_Contact.csproj": {}
+    "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\ASP_Contact.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\ASP_Contact.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\ASP_Contact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\ASP_Contact.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\ASP_Contact.csproj",
         "projectName": "ASP_Contact",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\ASP_Contact.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\ASP_Contact.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ASPContact_1\\ASPContact_1\\ASP_Contact\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -48,26 +48,44 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

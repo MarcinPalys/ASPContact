@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using static ASP_Contact.Models.Priority;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace ASP_Contact.Models
 {
@@ -21,7 +22,7 @@ namespace ASP_Contact.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"Data source={DbPath}");
+            optionsBuilder.UseSqlite($"Data source={DbPath}");           
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -29,15 +30,26 @@ namespace ASP_Contact.Models
             base.OnModelCreating(modelBuilder);
 
             string ADMIN_ID = Guid.NewGuid().ToString();
-            string ROLE_ID = Guid.NewGuid().ToString();
+            string ADMIN_ROLE_ID = Guid.NewGuid().ToString();
+
+            string USER_ID = Guid.NewGuid().ToString();
+            string USER_ROLE_ID = Guid.NewGuid().ToString(); 
 
             modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole
             {
                 Name = "admin",
                 NormalizedName = "ADMIN",
-                Id = ROLE_ID,
-                ConcurrencyStamp = ROLE_ID
-            });
+                Id = ADMIN_ROLE_ID,
+                ConcurrencyStamp = ADMIN_ROLE_ID
+            },
+            new IdentityRole
+            {
+                Name = "user",
+                NormalizedName = "user",
+                Id = USER_ROLE_ID,
+                ConcurrencyStamp = USER_ROLE_ID
+            }
+            );
 
             var admin = new IdentityUser
             {
@@ -49,18 +61,37 @@ namespace ASP_Contact.Models
                 NormalizedEmail = "ADAM@WSEI.EDU.PL"
             };
 
+            var user = new IdentityUser
+            {
+                Id = USER_ID,
+                Email = "jakub@wsei.edu.pl",
+                EmailConfirmed = true,
+                UserName = "user",
+                NormalizedUserName = "user",
+                NormalizedEmail = "JAKUB@WSEI.EDU.PL"
+            };
+
             PasswordHasher<IdentityUser> ph = new PasswordHasher<IdentityUser>();
             admin.PasswordHash = ph.HashPassword(admin, "1234abcd!@#$ABCD");
+            user.PasswordHash = ph.HashPassword(user, "qwerty123456");
 
             modelBuilder.Entity<IdentityUser>().HasData(admin);
+            modelBuilder.Entity<IdentityUser>().HasData(user);
 
             modelBuilder.Entity<IdentityUserRole<string>>()
             .HasData(new IdentityUserRole<string>
             {
-                RoleId = ROLE_ID,
+                RoleId = ADMIN_ROLE_ID,
                 UserId = ADMIN_ID
             });
 
+            modelBuilder.Entity<IdentityUserRole<string>>()
+            .HasData(new IdentityUserRole<string>
+            {
+                RoleId = USER_ROLE_ID,
+                UserId = USER_ID
+            });
+            
             modelBuilder.Entity<ContactEntity>()
                 .HasOne<OrganizationEntity>(c => c.Organization)
                 .WithMany(o => o.Contacts)
