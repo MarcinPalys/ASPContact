@@ -45,7 +45,7 @@ namespace ASP_Contact.Models
             new IdentityRole
             {
                 Name = "user",
-                NormalizedName = "user",
+                NormalizedName = "USER",
                 Id = USER_ROLE_ID,
                 ConcurrencyStamp = USER_ROLE_ID
             }
@@ -67,13 +67,15 @@ namespace ASP_Contact.Models
                 Email = "jakub@wsei.edu.pl",
                 EmailConfirmed = true,
                 UserName = "user",
-                NormalizedUserName = "user",
+                NormalizedUserName = "USER",
                 NormalizedEmail = "JAKUB@WSEI.EDU.PL"
             };
 
             PasswordHasher<IdentityUser> ph = new PasswordHasher<IdentityUser>();
+            PasswordHasher<IdentityUser> ph1 = new PasswordHasher<IdentityUser>();
+
             admin.PasswordHash = ph.HashPassword(admin, "1234abcd!@#$ABCD");
-            user.PasswordHash = ph.HashPassword(user, "qwerty123456");
+            user.PasswordHash = ph1.HashPassword(user, "qwerty123456");
 
             modelBuilder.Entity<IdentityUser>().HasData(admin);
             modelBuilder.Entity<IdentityUser>().HasData(user);

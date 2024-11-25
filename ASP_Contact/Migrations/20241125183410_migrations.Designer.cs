@@ -11,14 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ASP_Contact.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241120090556_migrations")]
+    [Migration("20241125183410_migrations")]
     partial class migrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.11");
 
             modelBuilder.Entity("ASP_Contact.Models.ContactEntity", b =>
                 {
@@ -64,7 +64,7 @@ namespace ASP_Contact.Migrations
                         new
                         {
                             id = 1,
-                            Created = new DateTime(2024, 11, 20, 10, 5, 56, 513, DateTimeKind.Local).AddTicks(4),
+                            Created = new DateTime(2024, 11, 25, 19, 34, 9, 256, DateTimeKind.Local).AddTicks(3708),
                             OrganizationId = 101,
                             Priority = 1,
                             dateOfBirth = new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -76,7 +76,7 @@ namespace ASP_Contact.Migrations
                         new
                         {
                             id = 2,
-                            Created = new DateTime(2024, 11, 20, 10, 5, 56, 513, DateTimeKind.Local).AddTicks(56),
+                            Created = new DateTime(2024, 11, 25, 19, 34, 9, 256, DateTimeKind.Local).AddTicks(3759),
                             OrganizationId = 102,
                             Priority = 2,
                             dateOfBirth = new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -154,17 +154,17 @@ namespace ASP_Contact.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ec5a7aab-0739-4d9f-aaed-c6a68476fd7a",
-                            ConcurrencyStamp = "ec5a7aab-0739-4d9f-aaed-c6a68476fd7a",
+                            Id = "47802c74-e962-49bd-a761-663ea4abbe5d",
+                            ConcurrencyStamp = "47802c74-e962-49bd-a761-663ea4abbe5d",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "398d534f-6729-49d2-bfc2-4dc0c937ac99",
-                            ConcurrencyStamp = "398d534f-6729-49d2-bfc2-4dc0c937ac99",
+                            Id = "18bb9159-08f5-46f6-a3ea-abbd28d943df",
+                            ConcurrencyStamp = "18bb9159-08f5-46f6-a3ea-abbd28d943df",
                             Name = "user",
-                            NormalizedName = "user"
+                            NormalizedName = "USER"
                         });
                 });
 
@@ -257,33 +257,33 @@ namespace ASP_Contact.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "bc7dd807-f5d0-42b3-a7a7-5773db058e87",
+                            Id = "7f2d6e7a-3468-4c46-83db-14eef0ef5740",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2051a76a-6467-47d8-8240-99e29ed85032",
+                            ConcurrencyStamp = "3166e939-8893-4ddb-a1e3-e649492ba263",
                             Email = "adam@wsei.edu.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADAM@WSEI.EDU.PL",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJF7OYH8XXbTkoj97pdeyGsmRHXiQrV0rhNdBVR4sCF3Hx/qQscqJuxxxbc/mhK98Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAEa7fvn3g+UPvqR2BC7f2tU9ykztQrmJuUOj5EEzbZCohUi7irlkMZpLGSprVjIYg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e0e7c5b1-3ac8-431d-9715-9ee172904fd5",
+                            SecurityStamp = "1c16f87f-02f2-4bf6-878d-feb79646bf5b",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         },
                         new
                         {
-                            Id = "76a2b1b5-6eee-4a02-83d0-84bd4a2b5275",
+                            Id = "25a41a81-407f-4c1a-8b8f-42b080313b8e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "710d02be-52b7-4998-abba-f0e309179cff",
+                            ConcurrencyStamp = "76cd8ef6-775d-4484-9889-4e3d7a786bcd",
                             Email = "jakub@wsei.edu.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "JAKUB@WSEI.EDU.PL",
-                            NormalizedUserName = "user",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFFv3ie/d1ZQaksCTEXaYj4EbTjWMLS7i+CcAweiGfULCtJ5XLuuLieWLTyCU5JUQw==",
+                            NormalizedUserName = "USER",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOvGCcU4LJHx9fYrkT5kIpzZzukTmrLghrn84XXb6mC6fzPq0INoYfEaVnm6PnpY0A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d687f5de-a09f-4248-9330-4f4ce8bc0514",
+                            SecurityStamp = "73502cc1-1df5-495c-8fb6-fc0674fe7499",
                             TwoFactorEnabled = false,
                             UserName = "user"
                         });
@@ -351,13 +351,13 @@ namespace ASP_Contact.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "bc7dd807-f5d0-42b3-a7a7-5773db058e87",
-                            RoleId = "ec5a7aab-0739-4d9f-aaed-c6a68476fd7a"
+                            UserId = "7f2d6e7a-3468-4c46-83db-14eef0ef5740",
+                            RoleId = "47802c74-e962-49bd-a761-663ea4abbe5d"
                         },
                         new
                         {
-                            UserId = "76a2b1b5-6eee-4a02-83d0-84bd4a2b5275",
-                            RoleId = "398d534f-6729-49d2-bfc2-4dc0c937ac99"
+                            UserId = "25a41a81-407f-4c1a-8b8f-42b080313b8e",
+                            RoleId = "18bb9159-08f5-46f6-a3ea-abbd28d943df"
                         });
                 });
 

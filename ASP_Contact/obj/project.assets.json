@@ -8331,11 +8331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\ASP_Contact.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact\\ASP_Contact\\ASP_Contact.csproj",
       "projectName": "ASP_Contact",
-      "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\ASP_Contact.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact\\ASP_Contact\\ASP_Contact.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact_5\\ASP_Contact\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\ASPContact\\ASP_Contact\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

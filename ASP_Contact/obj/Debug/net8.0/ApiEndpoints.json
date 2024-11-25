@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "ASP_Contact.Controllers.OrganizationApiController",
+    "Method": "GetFiltered",
+    "RelativePath": "api/organizations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

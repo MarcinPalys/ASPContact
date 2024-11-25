@@ -1,17 +1,22 @@
 using ASP_Contact.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 //var connectionString = builder.Configuration.GetConnectionString("AppDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AppDbContextConnection' not found.");
 
 // Add services to the container.
+builder.Services.AddRazorPages();
+builder.Services.AddDefaultIdentity<IdentityUser>()       // dodaæ
+    .AddRoles<IdentityRole>()                             //
+    .AddEntityFrameworkStores<AppDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IContactService, EfContactService>();
 builder.Services.AddDbContext<AppDbContext>();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContext>();
-
+builder.Services.AddMemoryCache();                        // dodaæ
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -27,6 +32,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();                                 // dodaæ
+app.UseAuthorization();                                  // dodaæ
+app.UseSession();                                        // dodaæ 
+app.MapRazorPages();
 
 app.UseAuthorization();
 

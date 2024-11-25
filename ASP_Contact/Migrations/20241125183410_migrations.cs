@@ -205,8 +205,8 @@ namespace ASP_Contact.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "398d534f-6729-49d2-bfc2-4dc0c937ac99", "398d534f-6729-49d2-bfc2-4dc0c937ac99", "user", "user" },
-                    { "ec5a7aab-0739-4d9f-aaed-c6a68476fd7a", "ec5a7aab-0739-4d9f-aaed-c6a68476fd7a", "admin", "ADMIN" }
+                    { "18bb9159-08f5-46f6-a3ea-abbd28d943df", "18bb9159-08f5-46f6-a3ea-abbd28d943df", "user", "USER" },
+                    { "47802c74-e962-49bd-a761-663ea4abbe5d", "47802c74-e962-49bd-a761-663ea4abbe5d", "admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -214,8 +214,8 @@ namespace ASP_Contact.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "76a2b1b5-6eee-4a02-83d0-84bd4a2b5275", 0, "710d02be-52b7-4998-abba-f0e309179cff", "jakub@wsei.edu.pl", true, false, null, "JAKUB@WSEI.EDU.PL", "user", "AQAAAAIAAYagAAAAEFFv3ie/d1ZQaksCTEXaYj4EbTjWMLS7i+CcAweiGfULCtJ5XLuuLieWLTyCU5JUQw==", null, false, "d687f5de-a09f-4248-9330-4f4ce8bc0514", false, "user" },
-                    { "bc7dd807-f5d0-42b3-a7a7-5773db058e87", 0, "2051a76a-6467-47d8-8240-99e29ed85032", "adam@wsei.edu.pl", true, false, null, "ADAM@WSEI.EDU.PL", "ADMIN", "AQAAAAIAAYagAAAAEJF7OYH8XXbTkoj97pdeyGsmRHXiQrV0rhNdBVR4sCF3Hx/qQscqJuxxxbc/mhK98Q==", null, false, "e0e7c5b1-3ac8-431d-9715-9ee172904fd5", false, "admin" }
+                    { "25a41a81-407f-4c1a-8b8f-42b080313b8e", 0, "76cd8ef6-775d-4484-9889-4e3d7a786bcd", "jakub@wsei.edu.pl", true, false, null, "JAKUB@WSEI.EDU.PL", "USER", "AQAAAAIAAYagAAAAEOvGCcU4LJHx9fYrkT5kIpzZzukTmrLghrn84XXb6mC6fzPq0INoYfEaVnm6PnpY0A==", null, false, "73502cc1-1df5-495c-8fb6-fc0674fe7499", false, "user" },
+                    { "7f2d6e7a-3468-4c46-83db-14eef0ef5740", 0, "3166e939-8893-4ddb-a1e3-e649492ba263", "adam@wsei.edu.pl", true, false, null, "ADAM@WSEI.EDU.PL", "ADMIN", "AQAAAAIAAYagAAAAEAEa7fvn3g+UPvqR2BC7f2tU9ykztQrmJuUOj5EEzbZCohUi7irlkMZpLGSprVjIYg==", null, false, "1c16f87f-02f2-4bf6-878d-feb79646bf5b", false, "admin" }
                 });
 
             migrationBuilder.InsertData(
@@ -232,8 +232,8 @@ namespace ASP_Contact.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "398d534f-6729-49d2-bfc2-4dc0c937ac99", "76a2b1b5-6eee-4a02-83d0-84bd4a2b5275" },
-                    { "ec5a7aab-0739-4d9f-aaed-c6a68476fd7a", "bc7dd807-f5d0-42b3-a7a7-5773db058e87" }
+                    { "18bb9159-08f5-46f6-a3ea-abbd28d943df", "25a41a81-407f-4c1a-8b8f-42b080313b8e" },
+                    { "47802c74-e962-49bd-a761-663ea4abbe5d", "7f2d6e7a-3468-4c46-83db-14eef0ef5740" }
                 });
 
             migrationBuilder.InsertData(
@@ -241,8 +241,8 @@ namespace ASP_Contact.Migrations
                 columns: new[] { "id", "Created", "OrganizationId", "Priority", "dateOfBirth", "email", "name", "phone", "surname" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 11, 20, 10, 5, 56, 513, DateTimeKind.Local).AddTicks(4), 101, 1, new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "adam@wsei.edu.pl", "Adam", "123456789", "Kowal" },
-                    { 2, new DateTime(2024, 11, 20, 10, 5, 56, 513, DateTimeKind.Local).AddTicks(56), 102, 2, new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "adam@wsei.edu.pl", "Adam", "123456789", "Kowal" }
+                    { 1, new DateTime(2024, 11, 25, 19, 34, 9, 256, DateTimeKind.Local).AddTicks(3708), 101, 1, new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "adam@wsei.edu.pl", "Adam", "123456789", "Kowal" },
+                    { 2, new DateTime(2024, 11, 25, 19, 34, 9, 256, DateTimeKind.Local).AddTicks(3759), 102, 2, new DateTime(2000, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "adam@wsei.edu.pl", "Adam", "123456789", "Kowal" }
                 });
 
             migrationBuilder.CreateIndex(

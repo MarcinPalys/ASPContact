@@ -1,10 +1,12 @@
 ﻿using ASP_Contact.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Text;
 
 namespace ASP_Contact.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class ContactController : Controller
     {
         public static Dictionary<int, Contact> _contacts = new Dictionary<int, Contact>();
@@ -13,6 +15,7 @@ namespace ASP_Contact.Controllers
         {
             _contactService = contactService;
         }
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return View(_contactService.FindAll());
